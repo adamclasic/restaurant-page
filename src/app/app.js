@@ -7,6 +7,7 @@ export const run = () => {
 
     // add main
 
-    // let main = document.createElement('main');
-    // contentDiv.appendChild(main);
+    let main = document.createElement('main');
+    workplace.appendChild(main);
+    alert('good');
 }
