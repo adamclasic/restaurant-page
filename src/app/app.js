@@ -9,5 +9,5 @@ export const run = () => {
 
     let main = document.createElement('main');
     workplace.appendChild(main);
-    alert('good');
+    // alert('good');
 }
