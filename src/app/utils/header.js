@@ -11,6 +11,8 @@ export const makeHeader = (arr, workPlace) => {
         let linkLi = document.createElement('li');
         linkLi.style.padding = '10px 30px';
         linkLi.style.backgroundColor = 'red';
+        linkLi.id = `${element}`;
+        linkLi.classList.add("nav-link");
         let linkA = document.createElement('a');
         linkA.href = `#${element}`;
         linkA.innerHTML = `${element.charAt(0).toUpperCase() + element.slice(1)}`;
