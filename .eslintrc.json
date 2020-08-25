@@ -15,6 +15,8 @@
         "no-shadow": "off",
         "no-param-reassign": "off",
         "eol-last": "off",
+        "import/prefer-default-export": "off",
+        "no-multi-assign": "off",
         "arrow-parens": "off"
     },
     "ignorePatterns": [
