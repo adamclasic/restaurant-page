@@ -9,7 +9,6 @@ export const makeHeader = (arr, workPlace) => {
   navLinksArray.forEach(element => {
     const linkLi = document.createElement('li');
     linkLi.style.padding = '10px 30px';
-    // linkLi.style.backgroundColor = 'red';
     linkLi.id = `${element}`;
     linkLi.classList.add('nav-link');
     const linkA = document.createElement('a');
