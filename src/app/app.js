@@ -5,8 +5,9 @@ import { aboutPage } from "./utils/about.js";
 
 export const run = () => {
     let tabSwitching = (pageName) => {
-        document.querySelectorAll('.nav-link').forEach((elem) => {elem.style.backgroundColor = 'red'});
-        document.getElementById(pageName).style.backgroundColor = 'yellow';
+        document.querySelectorAll('.nav-link').forEach((elem) => {elem.classList.remove("active")});
+        // document.getElementById(pageName).style.backgroundColor = 'yellow';
+        document.getElementById(pageName).classList.add("active");
 
         let printContent = '';
         switch (pageName) {
