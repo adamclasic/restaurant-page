@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 $main-color: #5a5243;
 $background-color: #565659;
 #content {
@@ -52,4 +52,5 @@ a {
   margin: auto;
   font-size: 100px;
   color: white;
+  font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
 }
