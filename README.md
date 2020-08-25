@@ -21,7 +21,7 @@
     <a href="https://github.com/adamclasic/restaurant-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/adamclasic/restaurant-page/feature/index.html">View Demo</a>
+    <a href="https://adamclasic.github.io/restaurant-page/">View Demo</a>
     ·
     <a href="https://github.com/adamclasic/restaurant-page/issues">Report Bug</a>
     ·
