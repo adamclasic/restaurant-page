@@ -15,7 +15,7 @@ const run = () => {
     switch (pageName) {
       case 'home':
         printContent = document.createElement('div');
-        printContent.innerText = homePage()
+        printContent.innerText = homePage();
         break;
       case 'explore':
         printContent = document.createElement('div');
