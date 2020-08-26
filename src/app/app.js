@@ -14,16 +14,20 @@ const run = () => {
     let printContent = '';
     switch (pageName) {
       case 'home':
-        printContent = document.createElement('div').innerText = homePage();
+        printContent = document.createElement('div');
+        printContent.innerText = homePage()
         break;
       case 'explore':
-        printContent = document.createElement('div').innerText = explorePage();
+        printContent = document.createElement('div');
+        printContent.innerText = explorePage();
         break;
       case 'about':
-        printContent = document.createElement('div').innerText = aboutPage();
+        printContent = document.createElement('div');
+        printContent.innerText = aboutPage();
         break;
       default:
-        printContent = 'something went wrong.';
+        printContent = document.createElement('div');
+        printContent.innerText = 'something went wrong.';
     }
 
     main.innerHTML = '';
