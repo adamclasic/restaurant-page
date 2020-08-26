@@ -1,0 +1,61 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+$main-color: #5a5243;
+$background-color: #565659;
+
+body {
+  margin: 0;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: $main-color;
+}
+
+.nav-link {
+  background-color: $main-color;
+  color: white;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+.text-main {
+  color: $main-color;
+}
+
+.active {
+  color: $main-color;
+  background-color: white;
+  font-weight: 700;
+}
+
+#homeContDiv {
+  background-image: url("images/pizza.jpg");
+  background-size: cover;
+  background-color: rgb(24, 15, 51);
+  height: 100%;
+  display: flex;
+}
+
+.hero-title {
+  display: inline-block;
+  margin: auto;
+  font-size: 100px;
+  color: white;
+  font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+}
