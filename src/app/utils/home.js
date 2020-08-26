@@ -1,4 +1,4 @@
-export const homePage = () => {
+const homePage = () => {
   const homeContent = document.createElement('div');
   const hero = document.createElement('h1');
   hero.innerText = 'Restaurant Page';
@@ -7,3 +7,4 @@ export const homePage = () => {
   homeContent.id = 'homeContDiv';
   return homeContent;
 };
+export default homePage;

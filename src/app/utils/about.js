@@ -1,4 +1,4 @@
-export const aboutPage = () => {
+const aboutPage = () => {
   const aboutContent = document.createElement('div');
   const loremText = `<h1> ABOUT PAGE</h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis similique, doloremque, neque ab libero sit debitis, aspernatur ex quam consequuntur iure architecto molestias ducimus inventore voluptas?
@@ -7,3 +7,4 @@ export const aboutPage = () => {
   aboutContent.id = 'aboutContDiv';
   return aboutContent;
 };
+export default aboutPage;

@@ -1,4 +1,4 @@
-export const makeHeader = (arr, workPlace) => {
+const makeHeader = (arr, workPlace) => {
   const header = document.createElement('header');
   const contentDiv = workPlace;
   contentDiv.appendChild(header);
@@ -19,3 +19,4 @@ export const makeHeader = (arr, workPlace) => {
   });
   header.appendChild(navLinks);
 };
+export default makeHeader;

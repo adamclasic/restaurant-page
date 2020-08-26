@@ -1,4 +1,4 @@
-export const explorePage = () => {
+const explorePage = () => {
   const exploreContent = document.createElement('div');
   const loremText = `<h1> EXPLOR PAGE</h1> 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis similique,
@@ -10,3 +10,5 @@ export const explorePage = () => {
   exploreContent.id = 'exploreContDiv';
   return exploreContent;
 };
+
+export default explorePage;

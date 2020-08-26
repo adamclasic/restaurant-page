@@ -1,11 +1,11 @@
-import { makeHeader } from './utils/header';
-import { homePage } from './utils/home';
-import { explorePage } from './utils/explore';
-import { aboutPage } from './utils/about';
+import makeHeader from './utils/header';
+import homePage from './utils/home';
+import explorePage from './utils/explore';
+import aboutPage from './utils/about';
 
 const main = document.createElement('main');
 
-export const run = () => {
+const run = () => {
   const tabSwitching = (pageName) => {
     document.querySelectorAll('.nav-link').forEach((elem) => { elem.classList.remove('active'); });
     // document.getElementById(pageName).style.backgroundColor = 'yellow';
@@ -48,3 +48,4 @@ export const run = () => {
   });
   workPlace.appendChild(main);
 };
+export default run;
